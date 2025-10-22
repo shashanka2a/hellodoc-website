@@ -47,27 +47,8 @@ export function Navbar() {
             className="flex items-center gap-3 cursor-pointer"
             onClick={() => scrollToSection("hero")}
           >
-            <div className="w-10 h-10 rounded-xl overflow-hidden">
-              <svg width="40" height="40" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient id="navBg" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#7C4DFF"/>
-                    <stop offset="100%" stop-color="#00BCD4"/>
-                  </linearGradient>
-                </defs>
-                <rect width="512" height="512" rx="80" fill="url(#navBg)" />
-                <path
-                  d="M176 96v80a64 64 0 0 0 128 0v-80
-                     M304 176v16a80 80 0 0 1-160 0v-16
-                     M256 256v48a48 48 0 0 0 96 0v-8
-                     M352 296h24a32 32 0 0 1 0 64h-24"
-                  stroke="white"
-                  stroke-width="28"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  fill="none"
-                />
-              </svg>
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#7C4DFF] to-[#00BCD4] flex items-center justify-center">
+              <Stethoscope className="w-6 h-6 text-white" />
             </div>
             <span className="text-[24px] text-white" style={{ fontFamily: "ClashDisplay, system-ui, sans-serif", fontWeight: 600 }}>
               HelloDoc
