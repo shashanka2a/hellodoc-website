@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   keywords: ["medical website", "doctor website", "healthcare", "web development", "medical practice", "digital solutions", "SEO optimization"],
   authors: [{ name: "HelloDoc" }],
   icons: {
-    icon: "/favicon.svg",
+    icon: "/image.png",
   },
   openGraph: {
     title: "HelloDoc - Complete Digital Solutions for Doctors & Clinics",
