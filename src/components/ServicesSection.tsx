@@ -6,18 +6,18 @@ import { Calendar, CreditCard, Sparkles } from "lucide-react";
 const services = [
   {
     icon: Calendar,
-    title: "Appointment Booking",
-    description: "Integrated calendar system that lets patients book, reschedule, and manage appointments 24/7. Syncs with your practice management software.",
+    title: "Custom Website Development",
+    description: "Professional, responsive websites built from scratch for your medical practice. Modern design, fast loading, and mobile-optimized for the best patient experience.",
   },
   {
     icon: CreditCard,
-    title: "Payment Integration",
-    description: "Secure payment processing for consultations, copays, and services. Accept credit cards, HSA/FSA, and insurance payments seamlessly.",
+    title: "SEO Optimization",
+    description: "Get found by patients searching for your services. We optimize your website for search engines to increase visibility and attract more patients to your practice.",
   },
   {
     icon: Sparkles,
-    title: "Customized Design",
-    description: "Fully bespoke design that reflects your brand, specialty, and values. No generic templates—every element is crafted for your unique practice.",
+    title: "Complete Digital Solutions",
+    description: "From appointment scheduling and online payments to patient portals and practice management integration. We build everything your clinic needs to succeed online.",
   },
 ];
 
@@ -39,11 +39,11 @@ export function ServicesSection() {
           className="text-center mb-16"
         >
           <h2 className="text-[48px] mb-4" style={{ fontFamily: "ClashDisplay, system-ui, sans-serif", fontWeight: 600 }}>
-            Everything You Need,{" "}
-            <span className="bg-gradient-to-r from-[#7C4DFF] to-[#00BCD4] bg-clip-text text-transparent">Built In</span>
+            Our{" "}
+            <span className="bg-gradient-to-r from-[#7C4DFF] to-[#00BCD4] bg-clip-text text-transparent">Services</span>
           </h2>
           <p className="text-[#B0B0B0] max-w-[600px] mx-auto">
-            We design and develop custom websites with all the features modern medical practices need.
+            We're a full-service web development agency specializing in complete digital solutions for doctors and medical practices.
           </p>
         </motion.div>
 

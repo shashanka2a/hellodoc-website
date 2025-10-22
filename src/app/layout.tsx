@@ -13,13 +13,16 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "HelloDoc - Build Your Medical Practice Website",
-  description: "Professional, HIPAA-compliant websites designed specifically for doctors and medical practices. Launch in days, not months.",
-  keywords: ["medical website", "doctor website", "healthcare", "HIPAA compliant", "medical practice"],
+  title: "HelloDoc - Complete Digital Solutions for Doctors & Clinics",
+  description: "From appointment scheduling and online payments to SEO-optimized, custom websites. We build everything your medical practice needs to thrive online.",
+  keywords: ["medical website", "doctor website", "healthcare", "web development", "medical practice", "digital solutions", "SEO optimization"],
   authors: [{ name: "HelloDoc" }],
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
-    title: "HelloDoc - Build Your Medical Practice Website",
-    description: "Professional, HIPAA-compliant websites designed specifically for doctors and medical practices.",
+    title: "HelloDoc - Complete Digital Solutions for Doctors & Clinics",
+    description: "From appointment scheduling and online payments to SEO-optimized, custom websites. We build everything your medical practice needs to thrive online.",
     type: "website",
   },
 };

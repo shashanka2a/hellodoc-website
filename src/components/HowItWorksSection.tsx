@@ -6,18 +6,18 @@ import { MessageSquare, Palette, Code } from "lucide-react";
 const steps = [
   {
     icon: MessageSquare,
-    title: "Discovery Call",
-    description: "We discuss your practice needs, branding vision, and what features matter most to your patients.",
+    title: "Consultation & Planning",
+    description: "We meet with you to understand your practice goals, target patients, and digital requirements. We create a comprehensive strategy for your online presence.",
   },
   {
     icon: Palette,
-    title: "Custom Design",
-    description: "Our designers create a unique, professional website tailored to your specialty and brand identity.",
+    title: "Design & Development",
+    description: "Our team designs and builds your custom website with all the features you need. We handle everything from UI/UX to backend development and integrations.",
   },
   {
     icon: Code,
-    title: "Development & Launch",
-    description: "We build your site with all integrations, test thoroughly, and launch it live with full support.",
+    title: "Launch & Support",
+    description: "We launch your website, optimize it for search engines, and provide ongoing support to ensure your digital presence continues to grow your practice.",
   },
 ];
 
@@ -33,10 +33,10 @@ export function HowItWorksSection() {
           className="text-center mb-16"
         >
           <h2 className="text-[48px] mb-4" style={{ fontFamily: "ClashDisplay, system-ui, sans-serif", fontWeight: 600 }}>
-            How It Works
+            Our Process
           </h2>
           <p className="text-[#B0B0B0] max-w-[600px] mx-auto">
-            From first call to final launch, we handle everything. Your custom website in just a few weeks.
+            From initial consultation to ongoing support, we handle every aspect of your digital transformation. Your complete web solution delivered professionally.
           </p>
         </motion.div>
 
