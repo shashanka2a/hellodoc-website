@@ -47,31 +47,35 @@ export function ServicesSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-4xl mx-auto space-y-8">
           {services.map((service, index) => (
             <motion.div
               key={service.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: index * 0.15, ease: "easeOut" }}
+              transition={{ duration: 0.4, delay: index * 0.1, ease: "easeOut" }}
               className="relative group"
             >
-              <div className="h-full bg-gradient-to-b from-[#1A1A1A] to-[#0E0E0E] rounded-2xl p-8 border border-[#2A2A2A] group-hover:border-[#00BCD4]/50 transition-all duration-300 shadow-lg group-hover:shadow-[#00BCD4]/20">
-                <motion.div
-                  whileHover={{ scale: 1.1, rotate: 5 }}
-                  transition={{ type: "spring", stiffness: 300 }}
-                  className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#7C4DFF]/20 to-[#00BCD4]/20 border border-[#7C4DFF]/30 flex items-center justify-center mb-6"
-                >
-                  <service.icon className="w-10 h-10 text-[#00BCD4]" strokeWidth={1.5} />
-                </motion.div>
+              <div className="bg-gradient-to-r from-[#1A1A1A] to-[#0E0E0E] rounded-2xl p-8 border border-[#2A2A2A] group-hover:border-[#00BCD4]/50 transition-all duration-300 shadow-lg group-hover:shadow-[#00BCD4]/20">
+                <div className="flex items-start gap-6">
+                  <motion.div
+                    whileHover={{ scale: 1.1, rotate: 5 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                    className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#7C4DFF]/20 to-[#00BCD4]/20 border border-[#7C4DFF]/30 flex items-center justify-center flex-shrink-0"
+                  >
+                    <service.icon className="w-8 h-8 text-[#00BCD4]" strokeWidth={1.5} />
+                  </motion.div>
 
-                <h3 className="text-[28px] mb-4" style={{ fontFamily: "ClashDisplay, system-ui, sans-serif", fontWeight: 600 }}>
-                  {service.title}
-                </h3>
-                <p className="text-[#B0B0B0] leading-relaxed">
-                  {service.description}
-                </p>
+                  <div className="flex-1">
+                    <h3 className="text-[32px] mb-4" style={{ fontFamily: "ClashDisplay, system-ui, sans-serif", fontWeight: 600 }}>
+                      {service.title}
+                    </h3>
+                    <p className="text-[#B0B0B0] leading-relaxed text-lg">
+                      {service.description}
+                    </p>
+                  </div>
+                </div>
               </div>
             </motion.div>
           ))}

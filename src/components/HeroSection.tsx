@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden py-24 px-6 md:py-32">
+    <section className="relative overflow-hidden py-24 px-6 md:py-32 pt-32">
       {/* Animated gradient background */}
       <div className="absolute inset-0 -z-10">
         <motion.div
@@ -41,7 +41,7 @@ export function HeroSection() {
               </span>
             </h1>
             
-            <p className="text-[#B0B0B0] mb-8 max-w-[560px] mx-auto lg:mx-0">
+            <p className="text-[#B0B0B0] mb-8 max-w-[600px] mx-auto text-center">
               From appointment scheduling and online payments to SEO-optimized, custom websites. We build everything your medical practice needs to thrive online.
             </p>
 
