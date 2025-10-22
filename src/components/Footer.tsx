@@ -11,19 +11,19 @@ export function Footer() {
               <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style="stop-color:#7C4DFF;stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:#00BCD4;stop-opacity:1" />
+                    <stop offset="0%" stopColor="#7C4DFF" stopOpacity="1" />
+                    <stop offset="100%" stopColor="#00BCD4" stopOpacity="1" />
                   </linearGradient>
                 </defs>
                 <g transform="translate(16, 16)">
-                  <path d="M-6,2 Q-3,-1 0,0 Q3,1 6,2" stroke="url(#logoGradient)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                  <path d="M-6,2 Q-3,-1 0,0 Q3,1 6,2" stroke="url(#logoGradient)" strokeWidth="2.5" fill="none" strokeLinecap="round"/>
                   <circle cx="6" cy="2" r="4" fill="url(#logoGradient)"/>
                   <circle cx="6" cy="2" r="2.5" fill="#0E0E0E"/>
                   <circle cx="6" cy="2" r="1" fill="url(#logoGradient)" opacity="0.3"/>
                   <circle cx="-6" cy="2" r="2.5" fill="url(#logoGradient)"/>
                   <circle cx="-6" cy="2" r="1.5" fill="#0E0E0E"/>
-                  <path d="M-6,2 Q-4,0 -2,2" stroke="url(#logoGradient)" stroke-width="2" fill="none" stroke-linecap="round"/>
-                  <path d="M-6,2 Q-4,4 -2,2" stroke="url(#logoGradient)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                  <path d="M-6,2 Q-4,0 -2,2" stroke="url(#logoGradient)" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                  <path d="M-6,2 Q-4,4 -2,2" stroke="url(#logoGradient)" strokeWidth="2" fill="none" strokeLinecap="round"/>
                 </g>
               </svg>
             </div>
