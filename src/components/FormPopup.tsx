@@ -281,7 +281,7 @@ export function FormPopup({ isOpen, onClose }: FormPopupProps) {
                       className="w-full bg-gradient-to-r from-[#7C4DFF] to-[#00BCD4] hover:opacity-90 transition-opacity border-0 py-6"
                       style={{ fontFamily: "Manrope, system-ui, sans-serif", fontWeight: 700, fontSize: "18px" }}
                     >
-                      Submit Information & Get Started
+                      Submit
                     </Button>
                     <p className="text-[#808080] text-sm text-center mt-4">
                       We'll review your information and contact you within 24 hours to discuss your custom website.

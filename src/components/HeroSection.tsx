@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden py-24 px-6 md:py-32 pt-32">
+    <section className="relative overflow-hidden min-h-screen flex items-center py-24 px-6 pt-32">
       {/* Animated gradient background */}
       <div className="absolute inset-0 -z-10">
         <motion.div
@@ -34,30 +34,30 @@ export function HeroSection() {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="text-center max-w-4xl"
           >
-            <h1 className="text-[56px] leading-[1.1] mb-6" style={{ fontFamily: "ClashDisplay, system-ui, sans-serif", fontWeight: 600 }}>
-              Complete Digital Solutions for{" "}
+            <h1 className="text-[64px] leading-[1.1] mb-12" style={{ fontFamily: "ClashDisplay, system-ui, sans-serif", fontWeight: 600 }}>
+              Transform Your Practice,{" "}
               <span className="bg-gradient-to-r from-[#7C4DFF] to-[#00BCD4] bg-clip-text text-transparent">
-                Doctors & Clinics.
+                Build Your Presence.
               </span>
             </h1>
             
-            <p className="text-[#B0B0B0] mb-8 max-w-[600px] mx-auto text-center">
+            <p className="text-[#B0B0B0] mb-16 max-w-[700px] mx-auto text-center text-xl leading-relaxed">
               From appointment scheduling and online payments to SEO-optimized, custom websites. We build everything your medical practice needs to thrive online.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center mt-8">
               <Button 
                 size="lg"
-                className="bg-gradient-to-r from-[#7C4DFF] to-[#00BCD4] hover:opacity-90 transition-opacity border-0"
-                style={{ fontFamily: "Manrope, system-ui, sans-serif", fontWeight: 700, fontSize: "18px" }}
+                className="bg-gradient-to-r from-[#7C4DFF] to-[#00BCD4] hover:opacity-90 transition-opacity border-0 px-8 py-6"
+                style={{ fontFamily: "Manrope, system-ui, sans-serif", fontWeight: 700, fontSize: "20px" }}
               >
                 Get Started Today
               </Button>
               <Button 
                 size="lg" 
                 variant="outline"
-                className="border-2 border-[#7C4DFF] text-white hover:bg-[#7C4DFF]/10"
-                style={{ fontFamily: "Manrope, system-ui, sans-serif", fontWeight: 700, fontSize: "18px" }}
+                className="border-2 border-[#7C4DFF] text-white hover:bg-[#7C4DFF]/10 px-8 py-6"
+                style={{ fontFamily: "Manrope, system-ui, sans-serif", fontWeight: 700, fontSize: "20px" }}
               >
                 View Our Work
               </Button>

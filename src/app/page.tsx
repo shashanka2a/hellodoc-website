@@ -2,7 +2,6 @@ import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { HowItWorksSection } from "@/components/HowItWorksSection";
 import { ServicesSection } from "@/components/ServicesSection";
-import { DoctorQuestionnaire } from "@/components/DoctorQuestionnaire";
 import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
 
@@ -18,9 +17,6 @@ export default function Home() {
       </div>
       <div id="services">
         <ServicesSection />
-      </div>
-      <div id="questionnaire">
-        <DoctorQuestionnaire />
       </div>
       <div id="contact">
         <CTASection />
